@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos/estilo.css">
+	<meta name="viewport" content="width=device-width, inicial-scale=1">
+	<title> Formulário</title>
+</head>
+<body>
+<header>
+
+</header>
+<!--  <div class="container-alerta">
+<button class="sair">X</button>
+<p class="alerta">É necessário aceitar os <span class="destaque">Termos de Uso e Política de Privacidade!</span></p>
+</div>  -->
+<div class="container">
+
+	<form name='' action='' method=''>
+	<legend>Cadastro</legend>
+
+	
+	<div class="entrada-dados input-nome">
+		<label for="nome">Nome:</label><br>
+		<span id="muda-classe-nome">
+		<input type="text" name="nome" id="nome" placeholder="Nome Completo"  required>
+		</span>
+		<small class="nome-vazio"></small>
+	</div>
+	
+	<div class="entrada-dados input-email">
+		<label for="email">E-mail:</label><br>
+		<span id="muda-classe-email">
+		<input type="email" name="email" id="email" placeholder="Ex: contato@dominio.com" required>
+		</span>
+		<small class="email-vazio"></small>
+	</div>
+	
+	<div class="entrada-dados">
+		<label for="confir-email">Confirmar E-mail:</label><br>
+		<span id="muda-classe-confir-email">
+		<input type="email" name="confir-email" id="confir-email" required>
+		</span>
+		<small class="confir-email-vazio"></small>
+	</div>
+	
+	<div class="senhas">
+	<div class="entrada-dados input-senha">
+		<label for="senha">Senha:</label><br>
+		<span id="muda-classe-senha">
+		<input type="password" name="senha" id="senha" placeholder="******" required><br>
+		</span>
+		<small class="senha-vazio"></small>
+		
+	</div>
+	<div class="entrada-dados input-senha">
+		<label for="confir-senha">Confirmar Senha:</label><br>
+		<span id="muda-classe-confir-senha">
+		<input type="password" name="senha" id="confir-senha" placeholder="******" required>
+		</span>
+		<small class="confir-senha-vazio"></small>
+	</div>
+	</div>
+	
+	<div class="container-dica-senha">
+	<small id="mostrar-dica-senha">Mínimo 6 dígitos, caractere especial, número e maiúsculas &nbsp<img src="imagens/question.png" id="dica-img"></small>
+	<!-- <button id="mostrar-dica-senha">Dica de senha</button> -->	
+		<ul class="dica-senha">A senha deve conter:
+		<li>- No mímimo 6 dígitos</li>
+		<li>- Um número</li>
+		<li>- Uma letra maiúscula</li>		
+		<li>- Um caractere especial @!#$%^&_*</li>
+	</ul>
+	<!-- <img src="imagens/question.png" id="dica-img"> -->
+	</div>
+	
+		<div class="termos">
+		<span id="inputTermos">
+		<input type="checkbox" id="aceitarTermos"> Aceito os <a href="" id="link-termos">Termos de Uso e Política de Privacidade</a> do site
+		</span>
+		<small class="msgAceitarTermos"></small>
+		</div>
+		
+		
+		<div class="botao entrada-dados">
+		<!-- <input type="submit" name="Cadastrar" value="Cadastrar" id="cadastrar"> -->
+		<button type="submit" name="Cadastrar" value="Cadastrar" class="cadastrar" id="cadastrar">Cadastrar</button>
+		</div>
+	</form>
+	 <div class="container-alerta">
+	<button class="sair">X</button>
+	<p class="alerta">É necessário aceitar os <span class="destaque">Termos de Uso e Política de Privacidade!</span></p>
+	</div> 
+</div>
+<div class="desfoque">
+<button class="sairTermos" title="Clique para sair">X</button>
+	<div class="janela-termos">
+	
+	<h1>Termos de Uso e Política de Privacidade</h1>
+	<p> I - Lorem ipsum dolor sit amet. Ea alias numquam sit quae facere aut porro sint ut iusto odit aut eaque magnam a laborum 	dolorem. Est culpa numquam sed aperiam voluptatem non laborum ullam At neque alias aut possimus numquam. Sit esse 
+			voluptate hic mollitia temporibus aut reiciendis odio  quidem autem aut quas voluptates sed dolorum quibusdam et similique blanditiis. Est placeat mollitia qui beatae dolores aut dolorum consectetur. </p>
+		<ol><li>At enim consequuntur aut eveniet molestiae  voluptas rerum etmolestias amet qui quam unde sit voluptatum nihil quam unde sit . </li>
+		<li>Eum atque assumenda  quasi delectus ab sunt consectetur omnis in similique ad sunt ipsum  ratione libero. </li>
+		<li>Sed adipisci repellat sit veritatis dmolestias amet qui quam unde sitolores qui totam internos numquam sit quae facere. </li>
+		<p> II - Sed fugit dignissimos sit sint dolor in voluptatem exercitationem ab similique voluptas ut velit tenetur ex 
+		voluptas galisum vel dolore magni. Vel sunt ipsum aut porro labore sed temporibus galisum est cupiditate sunt ea consequuntur omnis. Ad amet minus est vitae voluptatem
+		et voluptatem facere ab laudantium praesentium ex recusandae autem ea blanditiis debitis ut dolores sunt.
+		Est iusto sunt et quae aperiam sit porro laudantium qui voluptates ipsam cum impedit voluptatem et galisum 
+		labore aut velit possimus.</p>
+		<p> III - Id dicta sunt At Quis consequatur aut reiciendis dolor et similique ad sunt ipsum  voluptatum modi quibusdam et similique.
+		Et enim eveniet id maxime illo aut aperiam autem enim consequuntur aut eveniet molestiae  voluptas rerum mollitia et commodi debitis et aperiam libero ab porro quia. Et molestias amet qui quam unde sit veritatis
+		Vel ducimus dolore sed laboriosam similique ad sunt ipsum aut porro labore sed temporibus galisum est cupiditate sunt ea.
+		</p>
+	</div>
+</div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
